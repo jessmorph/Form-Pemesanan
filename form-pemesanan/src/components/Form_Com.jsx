@@ -10,7 +10,7 @@ function Formcom(){
                 <h2>Jenis Produk <input type="text" /></h2> 
             </div>
             <div>
-            <h3>Tanggal Pesan <input type="text" /></h3>
+            <h3>Tanggal <input type="text" /></h3>
             <h3>Nama Pemesan <input type="text" /></h3>
             </div>
         </div>
