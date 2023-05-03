@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form, Card } from "react-bootstrap";
+import { useLocation, Link} from 'react-router-dom';
 import "../styles/Login_style.css";
+import "../styles/Default_style.css";
 import { database } from "../utils/database";
 
 const Logincom = ({ setIsLoggedIn }) => {
@@ -15,6 +17,11 @@ const errors = {
     noUsername: "Please enter your username",
     noPassword: "Please enter your password",
   };
+
+// const onSubmit = async (values) =>{
+//   setError(null);
+//   const response = await
+// }
 
 
   const handleSubmit = (e) => {
@@ -60,7 +67,7 @@ const renderErrorMsg = (name) =>
         <>
         <div className="container">
             <Card className="card">
-                <h1 className="title logo">LOGO</h1>
+                <h1 className="title logo border">LOGO</h1>
                 <h1 className="title">Sign In</h1>
                 <p className="subtitle">Welcome To Konveksi Gundjaja Abadi</p>
                 <Form onSubmit={handleSubmit}>
@@ -81,13 +88,16 @@ const renderErrorMsg = (name) =>
                         {renderErrorMsg("password")}
                         {renderErrorMsg("noPassword")}
                     </div>
-                    <input className="login_button" type="submit" value="Log In" />
-                </Form>
-                <div className="link_container">
+                    <Link to="/onProgress">
+                      <Button class="btn login_button" variant="primary">Log In</Button>{' '}
+                    </Link>
+                    <div className="link_container">
                     <a href="" className="small">
                         Forgot Password?
                     </a>
                 </div>
+                </Form>
+
             </Card>
         </div>
     </>

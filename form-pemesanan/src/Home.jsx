@@ -1,18 +1,12 @@
-import React from "react";
-import { Button, Form } from "react-bootstrap";
-import Formcom from "./components/Form_Com";
-import Logincom from "./components/Login_Com";
-import Sidebarcom from "./templates/SideBar_Com";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+import './App.scss';
 
-function Home(){
-    return(
-        <>
-            <div>
-                {/* <Logincom></Logincom> */}
-                <Sidebarcom></Sidebarcom>
-                
-            </div>
-        </>
-    )
-}
-export default Home;
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)

@@ -1,7 +1,7 @@
 export const database = [
     {
-      username: "user1",
-      password: "password1",
+      username: "admin",
+      password: "admin",
     },
     {
       username: "user2",
@@ -12,3 +12,4 @@ export const database = [
       password: "password3",
     },
   ];
+  
