@@ -7,10 +7,10 @@ function History(){
         <>
         <div>
             <Navbar/>
-            <div class="d-flex mx-auto flex-column mt-5" >
-                <Button class="btn btn-primary btn-block btn-sm" variant="primary">+ Add Role</Button>{' '}
-                <div class="table-responsive" >
-                    <table class="table table-striped table-bordered table-hover table-sm mx-auto text-center">
+            <div className="d-flex mx-auto flex-column mt-5" >
+                <Button className="btn btn-primary btn-block btn-sm" variant="primary">+ Add Role</Button>{' '}
+                <div className="table-responsive" >
+                    <table className="table table-striped table-bordered table-hover table-sm mx-auto text-center">
                         <thead>
                             <tr>
                                 <th>No.</th>

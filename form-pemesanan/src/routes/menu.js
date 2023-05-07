@@ -14,6 +14,7 @@ const routes = [
   { path: "/role", element: Role },
   { path: "/history", element: History },
   { path: "/pendingForm", element: PendingForm },
+  { path: "/login", element: Login },
 
   // { path: "/user/create", element: CreateUser },
 //   { path: "/user/detail/:USER_ID", element: DetailUser },

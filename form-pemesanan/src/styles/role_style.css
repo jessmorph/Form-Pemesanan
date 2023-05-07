@@ -1,5 +1,5 @@
 .btn_addRole{
-    margin-left: 63vw;
+    margin-left: 65vw;
     margin-bottom: 3vh;
 }
 
@@ -8,4 +8,14 @@
     background-color: #a9a9a9;
     color: white;
     text-decoration: none;
+}
+
+.confPass{
+    color: red;
+}
+
+.roleBtn{
+    background-color: none;
+    margin: 0;
+    padding: 0;
 }
