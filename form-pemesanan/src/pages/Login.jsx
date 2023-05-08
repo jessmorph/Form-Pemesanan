@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Form, Card } from "react-bootstrap";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import "../styles/Login_style.css";
 import "../styles/Default_style.css";
 import { database } from "../utils/database";
@@ -63,8 +63,9 @@ const handleSubmit = async (e) => {
                       onChange={(e) => setPassword(e.target.value)}
                     />
                     </Form.Group>
-                    
-                    <Button type="submit" className="btn login_button" variant="primary">Log In</Button>{' '}  
+                    <Link to={"/onProgress"}>
+                      <Button type="submit" className="btn login_button" variant="primary">Log In</Button>{' '}  
+                    </Link>
                     <div className="link_container">
                       <a href="" className="small">
                         Forgot Password?
