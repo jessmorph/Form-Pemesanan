@@ -1,9 +1,11 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import Navbar from "../templates/Navbar_Com";
 
-function Formcom(){
+function PendingForm(){
     return(
         <>
+        <Navbar/>
         <div id="form_layout">
             <div id="form_title">
                 <h2>Lembar Kerja Konveksi Gundjaja Abadi</h2>
@@ -17,4 +19,4 @@ function Formcom(){
         </>
     )
 }
-export default Formcom;
+export default PendingForm;

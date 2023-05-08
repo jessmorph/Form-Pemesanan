@@ -1,0 +1,76 @@
+.defTable{
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a9a9a9;
+    text-align: center;
+
+    
+}
+
+.table{
+    font-size: 1rem;
+    max-width: 50vw;
+    min-width: 10vw;
+    background-color: #a9a9a9;
+}
+
+.bgContent{
+    background-color: #a9a9a9;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: black;
+    color: white;
+    outline: 0;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;  
+    display: block;
+    padding: 0.75rem 1rem;
+    
+}
+
+.btn:hover{
+    border: 2px solid black;
+    background-color: #a9a9a9;
+    color: white;
+    text-decoration: none;
+}
+
+
+.roundBtn{
+    border-radius: 50%;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    font-size: x-large;
+}
+
+.testerRow{
+    border: solid 1px red;
+    border-left: solid 1px red;
+    border-right: solid 1px red;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.testerCol{
+    border-top: solid 10px blue;
+    border-left: solid 10px blue;
+    border-right: solid 10px blue;
+    border-bottom: solid 10px blue;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.rowMain{
+    margin-left: 18vw;
+    margin-right: 1vw;
+    padding: 0;
+}
+
+
