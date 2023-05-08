@@ -25,11 +25,11 @@ function InputForm(){
                             </div>
                         </div>
                 </div>
-                <div class="row rowMain border border-bottom-0 "> 
+                <div class="row rowMain border  "> 
                     {/* row awal */}
-                    <div class="col-6 ">
+                    <div class="col-6 border-end ">
                         {/* col awal */}
-                        <div class="row border border-bottom-0 border-left-0 pt-1">
+                        <div class="row pt-1">
                             <div class="col-2 text-center my-auto"><h6>Tgl Pesan</h6></div>
                             <div class="col-auto my-auto "><h5>:</h5></div>
                             <div class="col-3 my-auto ">
@@ -43,20 +43,31 @@ function InputForm(){
                             </div>            
                         </div>
 
-                        <div className="row border border-top-0 pb-1">
+                        <div className="row mt-3">
                             <div class="col-2 text-center my-auto"><h6>Pemesan</h6></div>
                             <div class="col-auto my-auto "><h5>:</h5></div>
                             <div class="col-5 my-auto ">
                                 <input class="form-control form-control-sm text-center border-none" type="text" placeholder="Enter Name"/>
                             </div>  
                         </div>
-
-
                     </div>
 
-                    <div class="col-6 border">
+                    <div class="col-6 border-start-0">
                         {/* col ke-2 */}
-                        <div class="row border border-bottom-0 border-left-0 pt-1">
+                        <div class="row pt-1">
+                            <div class="col-2 text-center my-auto"><h6>Kota</h6></div>
+                            <div class="col-auto my-auto "><h5>:</h5></div>
+                            <div class="col-3 my-auto mt-1">
+                                <input class="form-control form-control-sm text-center border-none" type="text" placeholder="Enter Kota"/>
+                            </div>  
+
+                            <div class="col-2 text-center my-auto"><h6>Provinsi</h6></div>
+                            <div class="col-auto my-auto "><h5>:</h5></div>
+                            <div class="col-3 my-auto mt-1">
+                                <input class="form-control form-control-sm text-center border-none" type="text" placeholder="Enter Provinsi"/>
+                            </div> 
+                        </div>
+                        <div class="row pt-1 mb-2">
                             <div class="col-2 text-center my-auto"><h6>Alamat</h6></div>
                             <div class="col-auto my-auto "><h5>:</h5></div>
                             <div class="col-9 my-auto mt-1">
