@@ -28,7 +28,14 @@ const Navbar = () => {
           </div>
         )
       }
+        <div className='mt-5 '>
+          <Link to={"/login"}>
+            <Button>Logout</Button>
+          </Link>
+        </div>
       </div>
+
+
     </Nav>
     </div>
   );

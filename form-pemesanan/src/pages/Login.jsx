@@ -64,10 +64,10 @@ const handleSubmit = async (e) => {
                     />
                     </Form.Group>
                     <Link to={"/onProgress"}>
-                      <Button type="submit" className="btn login_button" variant="primary">Log In</Button>{' '}  
+                      <Button type="submit" className="btn login_button justify-content-center" variant="primary">Log In</Button>{' '}  
                     </Link>
                     <div className="link_container">
-                      <a href="" className="small">
+                      <a href="" className="small justify-content-center">
                         Forgot Password?
                       </a>
                   </div>
