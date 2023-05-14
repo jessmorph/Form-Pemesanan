@@ -763,8 +763,7 @@ function InputForm() {
                 <div className="col-4 border-end text-center d-flex justify-content-center align-items-center pt-3 pb-3">
                   <p className="my-auto">
                       <strong>
-                      Setuju dengan lembar ini tidak akan terjadi perubahan, jika ada maka harus
-                      dengan persetujuan 2 belah pihak
+                      Apabila barang tidak diambil dalam waktu 30 hari, maka resiko rusak, hilang bukan tanggung jawab kami
                       </strong>
                     </p>
                 </div>

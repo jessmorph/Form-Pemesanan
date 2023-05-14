@@ -58,7 +58,7 @@ function AddRoleModal(props) {
         <Modal.Title>Tambah User</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Form onSubmit={handleSubmit}>
+        <Form >
           <Form.Group className="mb-3" controlId="formRoleName">
             <Form.Label>Name</Form.Label>
             <Form.Control
@@ -101,7 +101,7 @@ function AddRoleModal(props) {
           </Form.Group>
           
         
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" onClick={handleSubmit}>
             Submit
           </Button>
         </Form>
@@ -115,8 +115,8 @@ function Role() {
   const [showModal, setShowModal] = useState(false);
 
   // Add new role to table
-  const handleAddRole = (newRole) => {
-    setRoles([...roles, { id: roles.length + 1, ...newRole }]);
+  const handleAddRole = (newUsername, newRole) => {
+    setRoles([...roles, { id: roles.length + 1, ...newUsername ,...newRole }]);
   };
 
   return (
@@ -145,7 +145,7 @@ function Role() {
           {roles.map((role) => (
             <tr className="text-center" key={role.id}>
               <td>{role.id}</td>
-              <td>{role.name}</td>
+              <td>{role.username}</td>
               <td>{role.role}</td>
               <td><Button>edit</Button></td>
               <td><Button>dlet</Button></td>
