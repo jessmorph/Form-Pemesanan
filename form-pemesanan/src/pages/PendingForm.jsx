@@ -1,21 +1,31 @@
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useState } from 'react';
+import { Button, Dropdown } from "react-bootstrap";
 import Navbar from "../templates/Navbar_Com";
+import InputForm from "../pages/InputForm";
 
-function PendingForm(){
-    return(
+
+function PendingForm() {
+    const [showDropdown, setShowDropdown] = useState(false);
+
+    const toggleDropdown = () => {
+      setShowDropdown(!showDropdown);
+    };
+
+    return (
         <>
-        <Navbar/>
-        <div id="form_layout">
-            <div id="form_title">
-                <h2>Lembar Kerja Konveksi Gundjaja Abadi</h2>
-                <h2>Jenis Produk <input type="text" /></h2> 
-            </div>
-            <div>
-            <h3>Tanggal <input type="text" /></h3>
-            <h3>Nama Pemesan <input type="text" /></h3>
-            </div>
-        </div>
+            <Navbar />
+            <div className="rowMain row border mt-5">
+      <Dropdown show={showDropdown} onToggle={toggleDropdown}>
+        <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+          Dropdown
+        </Dropdown.Toggle>
+        <Dropdown.Menu>
+          <Dropdown.Item>
+            <InputForm />
+          </Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+    </div>
         </>
     )
 }
