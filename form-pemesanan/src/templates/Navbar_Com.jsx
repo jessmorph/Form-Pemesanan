@@ -1,4 +1,4 @@
-import { useLocation, Link} from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { Nav, NavDropdown, Button } from 'react-bootstrap';
 import "../styles/Sidebar_style.css";
 import listNavbarItem from "../constant/listNavbarItem";
@@ -7,8 +7,8 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <div>
-      <Nav className='sidebar'>
+
+    <Nav className='sidebar'>
       {/* <Button variant="primary">Primary</Button>{' '} */}
       <div className='mainNav'>
         {
@@ -17,17 +17,17 @@ const Navbar = () => {
               style={{
 
 
-              ...(location.pathname === pageData.page ? {} : null)
-            }} 
-            key={'link-route' + idx}
-          >
+                ...(location.pathname === pageData.page ? {} : null)
+              }}
+              key={'link-route' + idx}
+            >
 
-            <Link to={pageData.page}>
-              { pageData.name }
-            </Link>
-          </div>
-        )
-      }
+              <Link to={pageData.page}>
+                {pageData.name}
+              </Link>
+            </div>
+          )
+        }
         <div className='mt-5 '>
           <Link to={"/login"}>
             <Button>Logout</Button>
@@ -37,9 +37,8 @@ const Navbar = () => {
 
 
     </Nav>
-    </div>
+
   );
 }
-  
+
 export default Navbar;
-  

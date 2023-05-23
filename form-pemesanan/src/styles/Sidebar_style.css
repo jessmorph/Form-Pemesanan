@@ -3,6 +3,7 @@
     display: inline-block;
     background-color: red;
     padding: 0;
+
   }
   .content{
     margin: 0;
@@ -28,6 +29,7 @@
     width: 20vw;
     box-shadow: 2;
     text-decoration: none;
+    z-index: 9999999;
   }
   
   .title{

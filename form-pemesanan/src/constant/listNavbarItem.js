@@ -7,5 +7,6 @@ export default [
     { name: "Invoice", page: "/invoice", },
     { name: "Work Sheet", page: "/workSheet", },
     { name: "Surat PO", page: "/suratPO", },
+    { name: "Header", page: "/header", },
   ];
   

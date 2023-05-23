@@ -6,7 +6,7 @@ function History(){
     return(
         <>
         <div>
-            <Navbar/>
+            
             <div className="d-flex mx-auto flex-column mt-5" >
                 <Button className="btn btn-primary btn-block btn-sm" variant="primary">+ Add Role</Button>{' '}
                 <div className="table-responsive" >

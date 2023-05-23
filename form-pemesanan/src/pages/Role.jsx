@@ -121,7 +121,7 @@ function Role() {
 
   return (
     <>
-    <Navbar/>
+    
     <div className="d-flex flex-column mt-5">
       <Button className="btn_addRole" variant="primary" onClick={() => setShowModal(true)}>
        + Tambah User

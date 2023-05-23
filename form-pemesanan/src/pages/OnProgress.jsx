@@ -9,7 +9,7 @@ const OnProgress = () => {
 
     return (
         <div>
-            <Navbar />
+            
             <div className="row rowMain border mt-5">
                 <div className="row">
                     <div className="col-1 border-end border-bottom d-flex justify-content-center align-items-center">
