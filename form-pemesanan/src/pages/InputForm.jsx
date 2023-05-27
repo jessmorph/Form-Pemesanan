@@ -38,7 +38,7 @@ function InputForm(){
 
                             <div class="col-2 text-center my-auto"><h6>No Telepon</h6></div>
                             <div class="col-auto my-auto "><h5>:</h5></div>
-                            <div class="col-auto my-auto ">
+                            <div class="col-3 my-auto ">
                                 <input class="form-control form-control-sm text-center border-none" type="text" placeholder=""/>
                             </div>            
                         </div>
