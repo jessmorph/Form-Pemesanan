@@ -250,33 +250,6 @@ function InputForm() {
                     />
                   </div>
                 </div>
-<<<<<<< HEAD
-                <div class="row rowMain border  "> 
-                    {/* row awal */}
-                    <div class="col-6 border-end ">
-                        {/* col awal */}
-                        <div class="row pt-1">
-                            <div class="col-2 text-center my-auto"><h6>Tgl Pesan</h6></div>
-                            <div class="col-auto my-auto "><h5>:</h5></div>
-                            <div class="col-3 my-auto ">
-                                <input class="form-control form-control-sm text-center border-none" type="text" placeholder="dd-mm-yyyy"/>
-                            </div>
-
-                            <div class="col-2 text-center my-auto"><h6>No Telepon</h6></div>
-                            <div class="col-auto my-auto "><h5>:</h5></div>
-                            <div class="col-3 my-auto ">
-                                <input class="form-control form-control-sm text-center border-none" type="text" placeholder=""/>
-                            </div>            
-                        </div>
-
-                        <div className="row mt-3">
-                            <div class="col-2 text-center my-auto"><h6>Pemesan</h6></div>
-                            <div class="col-auto my-auto "><h5>:</h5></div>
-                            <div class="col-5 my-auto ">
-                                <input class="form-control form-control-sm text-center border-none" type="text" placeholder="Enter Name"/>
-                            </div>  
-                        </div>
-=======
               </div>
               <div className="row rowMain border-start border-end border-bottom  ">
                 {/* row awal */}
@@ -292,7 +265,6 @@ function InputForm() {
                         value={tglPesan}
                         onChange={handleTglPesanChange}
                       />
->>>>>>> 4ee541bef3e4f02650303832d2c06be184976a2c
                     </div>
 
                     <div className="col-2 text-center my-auto"><h6>No Telepon</h6></div>
