@@ -27,5 +27,47 @@
 
 }
 
+.modal-content{
+    width: 100%;
+}
+
+.browse_btn{
+    font-size: small;
+    background-color: #a9a9a9;
+    color: black;
+}
+
+.custom-input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dpForm{
+    border: none;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tableInput{
+    max-width: 78.92vw;
+    min-width: 60vw;
+}
+
+.colNumber{
+    max-width: 4vw;
+}
+
+.modalBtn{
+    width: 60px;
+}
+
+
+
+
 
 

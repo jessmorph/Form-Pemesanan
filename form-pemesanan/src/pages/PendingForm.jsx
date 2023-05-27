@@ -1,22 +1,50 @@
-import React from "react";
-import { Button } from "react-bootstrap";
+import React, { useState } from 'react';
+import { Button, Modal} from "react-bootstrap";
 import Navbar from "../templates/Navbar_Com";
+import InputForm from "../pages/InputForm";
+import AddForm from "../components/AddForm";
 
-function PendingForm(){
-    return(
-        <>
-        <Navbar/>
-        <div id="form_layout">
-            <div id="form_title">
-                <h2>Lembar Kerja Konveksi Gundjaja Abadi</h2>
-                <h2>Jenis Produk <input type="text" /></h2> 
-            </div>
-            <div>
-            <h3>Tanggal <input type="text" /></h3>
-            <h3>Nama Pemesan <input type="text" /></h3>
-            </div>
-        </div>
-        </>
-    )
+import "../styles/Default_style.css";
+import "../styles/pendingForm_style.css";
+
+function CheckPending(props) {
+
+  return (
+    <Modal className="pendProduk d-flex align-items-center ms-5" show={props.show} onHide={props.onHide}>
+      <Modal.Header closeButton>
+        <Modal.Title>Tambah Produk</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <InputForm />
+      </Modal.Body>
+    </Modal>
+  );
+}
+
+function PendingForm(props) {
+  const [showModal, setShowModal] = useState(false);
+
+
+
+  return (
+    <>
+
+      <div className="row rowMain border-top border-start border-end pb-4 pt-4 ">
+        <Button className="modalBtn roundBtn d-flex justify-content-center " onClick={() => setShowModal(true)} >
+          Show Modal 1
+        </Button>
+        {/* <AddSize
+                      show={showModal}
+                      onHide={() => setShowModal(false)}
+                      // onAddSize={handleAddSize}
+                    /> */}
+        <CheckPending
+          show={showModal}
+          onHide={() => setShowModal(false)}
+        // onAddSize={handleAddSize}
+        />
+      </div>
+    </>
+  );
 }
 export default PendingForm;
