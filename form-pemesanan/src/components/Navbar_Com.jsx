@@ -1,7 +1,9 @@
 import { useLocation, Link } from 'react-router-dom';
 import { Nav, NavDropdown, Button } from 'react-bootstrap';
-import "../styles/Sidebar_style.css";
+import "../assets/styles/Sidebar_style.css";
 import listNavbarItem from "../constant/listNavbarItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEyeSlash, faEye, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const location = useLocation();

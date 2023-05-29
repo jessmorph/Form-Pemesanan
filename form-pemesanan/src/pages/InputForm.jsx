@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Button, Modal, Form, Table } from "react-bootstrap";
-import Navbar from "../templates/Navbar_Com";
+import Navbar from "../components/Navbar_Com";
 import AddForm from "../components/AddForm";
-import "../styles/Form_style.css";
-import "../styles/Default_style.css";
+import "../assets/styles/Form_style.css";
+import "../assets/styles/Default_style.css";
 
 //modal form
 

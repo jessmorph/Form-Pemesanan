@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import Navbar from "../templates/Navbar_Com";
+import Navbar from "../components/Navbar_Com";
 
 function History(){
     return(

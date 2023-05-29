@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form, Card } from "react-bootstrap";
 import { useNavigate, Link } from 'react-router-dom';
-import "../styles/Login_style.css";
-import "../styles/Default_style.css";
+import "../assets/styles/Login_style.css";
+import "../assets/styles/Default_style.css";
 import { database } from "../utils/database";
 
 const Logincom = ({ setIsLoggedIn }) => {

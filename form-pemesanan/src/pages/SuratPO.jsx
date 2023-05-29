@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from 'react';
 import { Button, Table } from "react-bootstrap";
-import "../../styles/Invoice_style.css"
-import Navbar from "../../templates/Navbar_Com";
+import "../assets/styles/Invoice_style.css"
+import Navbar from "../components/Navbar_Com";
 
 
 

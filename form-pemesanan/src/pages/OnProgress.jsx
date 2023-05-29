@@ -1,8 +1,9 @@
 import React from "react";
 import { useLocation } from 'react-router-dom';
 import { Table, Button } from 'react-bootstrap';
-import Navbar from "../templates/Navbar_Com";
-import "../styles/Default_style.css";
+import Navbar from "../components/Navbar_Com";
+import "../assets/styles/Default_style.css";
+import "../assets/styles/OnProgress_style.css";
 
 const OnProgress = () => {
     const location = useLocation()
@@ -52,10 +53,10 @@ const OnProgress = () => {
                         <span>Medion Ardhika Bhakti</span>
                     </div>
                     <div className="col-2 border-end border-bottom d-flex justify-content-center align-items-center">
-                        <span><Button>Form PO</Button></span>
+                        <span><Button className="btnModal">Form PO</Button></span>
                     </div>
                     <div className="col-2 border-end border-bottom d-flex justify-content-center align-items-center">
-                        <span><Button>Form Desain</Button></span>
+                        <span><Button className="btnModal">Form Desain</Button></span>
                     </div>
                     <div className="col-2 border-end border-bottom d-flex justify-content-center align-items-center">
                         <span><strong>Aksi</strong></span>
