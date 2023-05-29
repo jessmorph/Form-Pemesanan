@@ -1,3 +1,7 @@
 .tableBody{
     min-width: 10vw;
 }
+
+.btnModal{
+   margin: 5px; 
+}

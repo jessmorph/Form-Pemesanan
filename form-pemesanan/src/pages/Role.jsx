@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button, Modal, Form, Table} from "react-bootstrap";
-import Navbar from "../templates/Navbar_Com";
+import Navbar from "../components/Navbar_Com";
 // import { createUser } from '../logics/addRole'
-import "../styles/role_style.css";
+import "../assets/styles/Role_style.css";
 
 function AddRoleModal(props) {
   const [username, setUsername] = useState('');

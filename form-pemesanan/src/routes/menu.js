@@ -4,10 +4,10 @@ import InputForm from "../pages/InputForm";
 import Role from "../pages/Role";
 import History from "../pages/History";
 import PendingForm from "../pages/PendingForm";
-import Invoice from "../components/tester/Invoice";
-import WorkSheet from "../components/tester/WorkSheet";
-import SuratPO from "../components/tester/SuratPO";
-import Header from "../templates/Header";
+import Invoice from "../pages/Invoice";
+import WorkSheet from "../pages/WorkSheet";
+import SuratPO from "../pages/SuratPO";
+import Header from "../components/Header";
 // import CreateUser from "../pages/user/create";
 // import DetailUser from "../pages/user/detail";
 // import Contact from "../pages/contact";
@@ -27,7 +27,7 @@ const routes = [
   // { path: "/user/create", element: CreateUser },
 //   { path: "/user/detail/:USER_ID", element: DetailUser },
 //   // MAIN Route
-  { path: "/", element: Login }, 
+  { path: "/", element: OnProgress }, 
 ];
 
 export default routes;

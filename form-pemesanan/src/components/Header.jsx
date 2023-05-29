@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import "../styles/Header_style.css";
+import "../assets/styles/Header_style.css";
 
 function Header() {
     return (

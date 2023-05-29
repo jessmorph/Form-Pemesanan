@@ -8,8 +8,8 @@ import {
 import './App.css'
 
 import ShowNavBar from "./logics/ShowNavBar"
-import Navbar from "./templates/Navbar_Com";
-import Header from "./templates/Header";
+import Navbar from "./components/Navbar_Com";
+import Header from "./components/Header";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';

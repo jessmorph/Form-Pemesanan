@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Button, Modal} from "react-bootstrap";
-import Navbar from "../templates/Navbar_Com";
+import Navbar from "../components/Navbar_Com";
 import InputForm from "../pages/InputForm";
 import AddForm from "../components/AddForm";
 
-import "../styles/Default_style.css";
-import "../styles/pendingForm_style.css";
+import "../assets/styles/Default_style.css";
+import "../assets/styles/PendingForm_style.css";
 
 function CheckPending(props) {
 
