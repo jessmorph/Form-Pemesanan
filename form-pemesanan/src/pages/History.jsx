@@ -13,7 +13,7 @@ function History(){
                     <table className="table table-striped table-bordered table-hover table-sm mx-auto text-center">
                         <thead>
                             <tr>
-                                <th>No.</th>
+                                <th>No.</th> 
                                 <th>ID</th>
                                 <th>Nama</th>
                                 <th>Role</th>
